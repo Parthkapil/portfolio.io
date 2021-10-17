@@ -59,7 +59,7 @@ const Timeline = () => {
 
 	return (
 		<Section id="about">
-			<SectionDivider />
+			{/* <SectionDivider /> */}
 			<SectionTitle>About Me</SectionTitle>
 			<SectionText>
 				I graduated with bachelors in computer science in 2019. Since then, I worked as a software

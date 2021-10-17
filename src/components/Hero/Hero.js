@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Section, SectionText, SectionTitle } from "../../styles/GlobalComponents";
+import { Section, SectionText, SectionTitle, SectionDivider } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
@@ -28,6 +28,7 @@ const Hero = props => (
 				>
 					Download Resume
 				</Button>
+				<SectionDivider />
 			</LeftSection>
 		</Section>
 	</>
