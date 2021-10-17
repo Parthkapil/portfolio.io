@@ -59,6 +59,7 @@ const Timeline = () => {
 
 	return (
 		<Section id="about">
+			<SectionDivider />
 			<SectionTitle>About Me</SectionTitle>
 			<SectionText>
 				I graduated with bachelors in computer science in 2019. Since then, I worked as a software
@@ -130,7 +131,7 @@ const Timeline = () => {
 					);
 				})}
 			</CarouselButtons>
-			<SectionDivider />
+			{/* <SectionDivider /> */}
 		</Section>
 	);
 };
