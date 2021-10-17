@@ -34,6 +34,7 @@ const Publications = () => (
 						<CardInfo className="card-info">{p.description}</CardInfo>
 						<UtilityList>
 							<ExternalLinks href={p.source}>Visit</ExternalLinks>
+							<ExternalLinks href={prefix + p.pdf}>Download PDF</ExternalLinks>
 						</UtilityList>
 					</BlogCard>
 				);

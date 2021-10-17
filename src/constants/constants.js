@@ -74,10 +74,10 @@ export const TimeLineData = [
 export const papers = [
 	{
 		title: "FRecS -Financial Recommender System",
-		description: "This research paper was published in Nov 2019.",
+		description: "This research paper was published in Nov 2019 in a IEEE conference",
 		image: "/images/frecs_thumb.jpg",
-		source:
-			"https://www.researchgate.net/publication/339975561_FRecS_-Financial_Recommender_System",
+		source: "https://ieeexplore.ieee.org/document/9036227",
+		pdf: "/downloads/FinancialRecommenderSystem.pdf",
 		id: 0,
 	},
 	{
@@ -86,6 +86,7 @@ export const papers = [
 		image: "/images/anomaly_thumb.jpg",
 		source:
 			"https://www.researchgate.net/publication/334123739_Anomaly_Detection_in_Fruits_using_Hyper_Spectral_Images",
+		pdf: "/downloads/AnomalyDetectionInFruits.pdf",
 		id: 1,
 	},
 ];
